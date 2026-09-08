@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero-Trace</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, sans-serif; }
+        body { background: #0a0a0a; min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 20px; }
+        .container { max-width: 420px; width: 100%; background: #121212; border-radius: 28px; padding: 30px 20px; border: 1px solid #2a2a2a; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+        .logo { color: #ff3b30; font-size: 24px; font-weight: 800; }
+        .badge { background: #1e1e1e; padding: 4px 14px; border-radius: 30px; color: #34c759; font-size: 12px; border: 1px solid #2a2a2a; }
+        .warning-box { background: #1a1a1a; border-left: 4px solid #ff9500; padding: 12px 14px; border-radius: 10px; margin-bottom: 20px; font-size: 13px; color: #aaa; display: flex; align-items: center; gap: 8px; }
+        .warning-box span:first-child { background: #ff9500; color: #000; font-weight: 700; padding: 0 10px; border-radius: 16px; }
+        .title { color: #fff; font-size: 24px; font-weight: 700; }
+        .subtitle { color: #888; font-size: 14px; margin-bottom: 18px; }
+        .users-badge { display: flex; align-items: center; gap: 6px; background: #1a1a1a; padding: 6px 14px; border-radius: 30px; border: 1px solid #2a2a2a; color: #aaa; font-size: 13px; margin-bottom: 18px; width: fit-content; }
+        .users-badge strong { color: #fff; }
+        .dot { display: inline-block; width: 8px; height: 8px; background: #34c759; border-radius: 50%; }
+        .menu-card { background: #1a1a1a; border-radius: 16px; padding: 16px; margin-bottom: 10px; border: 1px solid #2a2a2a; transition: 0.15s; display: flex; align-items: center; justify-content: space-between; text-decoration: none; cursor: pointer; }
+        .menu-card:hover { background: #222; border-color: #ff3b30; }
+        .menu-card .left { display: flex; align-items: center; gap: 14px; }
+        .menu-card .icon { font-size: 26px; }
+        .menu-card .info .name { color: #fff; font-size: 16px; font-weight: 600; }
+        .menu-card .info .desc { color: #888; font-size: 13px; }
+        .menu-card .arrow { color: #555; font-size: 20px; }
+        .footer { text-align: center; color: #444; font-size: 12px; margin-top: 18px; border-top: 1px solid #1a1a1a; padding-top: 14px; }
+        a { text-decoration: none; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">Zero-Trace</div>
+        <div class="badge">🔴 LIVE</div>
+    </div>
+    <div class="warning-box">
+        <span>⚠️</span>
+        <span>Не открывается? Нажми на ⚠️ в правом верхнем углу и выбери «Открыть в браузере».</span>
+    </div>
+    <div class="title">Zero-Trace</div>
+    <div class="subtitle">Выбери нужный раздел ниже</div>
+    <div class="users-badge">
+        <span class="dot"></span> <strong>1000+</strong> активных пользователей
+    </div>
+    <a href="https://t.me/ZeroTraceeBbot?start=ref_eI9i2LrNLoD-_jvVmM6akJA" target="_blank" class="menu-card">
+        <div class="left">
+            <div class="icon">🔶</div>
+            <div class="info">
+                <div class="name">Бот для сноса ▲</div>
+                <div class="desc">Удаление аккаунтов</div>
+            </div>
+        </div>
+        <div class="arrow">›</div>
+    </a>
+    <div style="margin-top:16px; text-align:center; color:#555; font-size:13px;">
+        ⚡ <span style="color:#ff3b30;">10000+</span> уже используют
+    </div>
+    <div class="footer">
+        Zero-Trace © 2026
+    </div>
+</div>
+</body>
+</html>
